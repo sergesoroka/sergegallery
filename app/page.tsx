@@ -88,6 +88,19 @@ export default function Home() {
             The Roofs — 2026 | Acrylic on canvas, 30&times;40
           </p>
         </div>
+        <div>
+          <Image
+            className="dark:invert"
+            src="/house_roofs_5.png"
+            alt="Roofs"
+            width={726}
+            height={889}
+            priority
+          />
+          <p className="mt-3 text-sm text-muted-foreground">
+            The Roofs — 2026 | Acrylic on canvas, 15&times;20
+          </p>
+        </div>
       </div>
     </main>
   );
