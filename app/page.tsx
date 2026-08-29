@@ -3,9 +3,14 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="mx-5 my-13">
-      <header className="flex mb-24  items-center justify-start gap-24">
-        <h1>Serge Soroka</h1>
-        <h2 className="">The Roofs</h2>
+      <header className="flex mb-24  items-center justify-between gap-24">
+        <div className="flex items-center justify-start gap-24">
+          <h1>Serge Soroka</h1>
+          <h2 className="">The Roofs</h2>
+        </div>
+        <p>
+          <a href="mailto:sergesoroka@gmail.com">Email</a>
+        </p>
       </header>
       <div className="grid grid-cols-1 gap-5 gap-y-24 md:grid-cols-2 lg:grid-cols-3 ">
         <div>
