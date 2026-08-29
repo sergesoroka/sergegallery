@@ -18,7 +18,7 @@ export default function Home() {
             priority
           />
           <p className="mt-3 text-sm text-muted-foreground">
-            The Roofs — 2026 | Acrylic on canvas, 25&times;30
+            The Roofs — 2026 | Acrylic on canvas, 20&times;20
           </p>
         </div>
 
@@ -85,7 +85,7 @@ export default function Home() {
             priority
           />
           <p className="mt-3 text-sm text-muted-foreground">
-            The Roofs — 2026 | Acrylic on canvas, 25&times;30
+            The Roofs — 2026 | Acrylic on canvas, 30&times;40
           </p>
         </div>
       </div>
