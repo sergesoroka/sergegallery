@@ -3,6 +3,14 @@ import Header from "../components/Header";
 
 const placesPics = [
   {
+    src: "/kharkiv_house.png",
+    alt: "The Red Tree",
+    width: 726,
+    height: 726,
+    priority: true,
+    description: "The Red Tree — 2025 | Acrylic on canvas, 25×30",
+  },
+  {
     src: "/places_1.jpg",
     alt: "The Wall",
     width: 726,
