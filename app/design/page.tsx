@@ -53,17 +53,18 @@ function DesignPage() {
       <div className="mb-16">
         <p className="text-3xl md:text-4xl mt-30 mr-10">
           I’m <span className="text-orange-700">Sergey</span> — a designer and
-          frontend developer. For years I was focused on creating websites, web
-          applications as well as books covers, posters, catalogs and so on. The
-          most interesting aspect of a designer's work is discipline.
-          Typography, grids, and modular systems: every decision is based on
-          these principles, which are the main guidelines in the whole workflow.
-          Below are the latest projects I have worked on. Please,{" "}
+          frontend developer. For years, I have focused on creating websites and
+          web applications, as well as book covers, posters, catalogs, and more.
+          One of the most interesting aspects of a designer’s work is
+          discipline. Typography, grids, and modular systems: every decision is
+          based on these principles, which serve as the guiding framework
+          throughout the creative process. Below are some of the latest projects
+          I’ve worked on.&nbsp;
           <a
             className="text-orange-700 hover:underline"
             href="mailto:sergesoroka@gmail.com"
           >
-            let's get in touch.
+            Let's get in touch.
           </a>
         </p>
       </div>
