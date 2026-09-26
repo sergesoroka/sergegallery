@@ -7,6 +7,14 @@ export default function Home() {
       <Header />
       <div className="grid grid-cols-1 gap-5 gap-y-24 md:grid-cols-2 lg:grid-cols-3 ">
         <Card
+          src="/house_in_darkness.jpg"
+          alt="House in Darkness"
+          width={726}
+          height={726}
+          priority
+          description="The House in Darkness | Acrylic on canvas, 25&times;30"
+        />
+        <Card
           src="/house_roofs.png"
           alt="The Roofs"
           width={726}
