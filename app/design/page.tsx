@@ -42,6 +42,7 @@ const designWorks = [
 function DesignPage() {
   return (
     <div className="mx-4">
+      <div className="fixed top-4 left-0 w-2 h-24 bg-orange-700"></div>
       <Image
         className="absolute top-4 left-30 dark:invert z-[-1]"
         src="/sergey.png"
@@ -49,15 +50,15 @@ function DesignPage() {
         width={200}
         height={200}
       />
-      <div className="mb-12">
+      <div className="mb-16">
         <p className="text-3xl md:text-4xl mt-30 mr-10">
-          Hi! I’m Sergey — a designer and developer. For years I was focused on
-          creating websites, web applications as well as books covers, posters,
-          catalogs and so on. The most interesting aspect of a designer's work
-          is discipline. Typography, grids, and modular systems: every decision
-          is based on these principles, which are the main guidelines in the
-          whole workflow. Below are the latest projects I have worked on.
-          Please,{" "}
+          I’m <span className="text-orange-700">Sergey</span> — a designer and
+          frontend developer. For years I was focused on creating websites, web
+          applications as well as books covers, posters, catalogs and so on. The
+          most interesting aspect of a designer's work is discipline.
+          Typography, grids, and modular systems: every decision is based on
+          these principles, which are the main guidelines in the whole workflow.
+          Below are the latest projects I have worked on. Please,{" "}
           <a
             className="text-orange-700 hover:underline"
             href="mailto:sergesoroka@gmail.com"
@@ -68,11 +69,16 @@ function DesignPage() {
       </div>
       <div className="">
         {designWorks.map((work) => (
-          <div className="mb-6 ml-20" key={work.id}>
-            <a href={work.link} target="_blank" rel="noopener noreferrer">
+          <div className="mb-6 ml-20 text-2xl" key={work.id}>
+            <a
+              className=" hover:text-orange-700"
+              href={work.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {work.description}
             </a>
-            <p className="text-sm text-gray-600">Client: {work.client}</p>
+            <p className=" text-gray-600 text-sm">{work.client}</p>
           </div>
         ))}
       </div>
