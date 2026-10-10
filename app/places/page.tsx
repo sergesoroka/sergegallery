@@ -3,6 +3,14 @@ import Header from "../components/Header";
 
 const placesPics = [
   {
+    src: "/roofs_12.jpg",
+    alt: "The Roofs",
+    width: 726,
+    height: 726,
+    priority: true,
+    description: "The Roofs — 2025 | Acrylic on canvas, 20×20",
+  },
+  {
     src: "/kharkiv_house.png",
     alt: "The Red Tree",
     width: 726,
