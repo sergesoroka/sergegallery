@@ -3,6 +3,14 @@ import Header from "../components/Header";
 
 const placesPics = [
   {
+    src: "/houses_flat.png",
+    alt: "The Houses",
+    width: 726,
+    height: 726,
+    priority: true,
+    description: "The Houses — 20265 | Acrylic on canvas, 25×30",
+  },
+  {
     src: "/roofs_12.jpg",
     alt: "The Roofs",
     width: 726,
