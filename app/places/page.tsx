@@ -3,12 +3,20 @@ import Header from "../components/Header";
 
 const placesPics = [
   {
+    src: "/road_s.png",
+    alt: "The Houses",
+    width: 726,
+    height: 726,
+    priority: true,
+    description: "The Road — 2026 | Acrylic on canvas, 40×60",
+  },
+  {
     src: "/houses_flat.png",
     alt: "The Houses",
     width: 726,
     height: 726,
     priority: true,
-    description: "The Houses — 20265 | Acrylic on canvas, 25×30",
+    description: "The Houses — 2025 | Acrylic on canvas, 25×30",
   },
   {
     src: "/roofs_12.jpg",
